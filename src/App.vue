@@ -29,8 +29,8 @@ export default {
 </template>
 
 <style lang="scss">
-@use "assets/scss/main" as *;
 @use "assets/scss/header" as *;
+@use "assets/scss/main" as *;
 @use "assets/scss/footer" as *;
 
 @import "assets/scss/partials/reset";

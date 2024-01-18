@@ -131,32 +131,32 @@ export default {
                   <a href="">{{ dccomics[index].link }}</a>
                 </li>
               </ul>
-                <h3>SHOP</h3>
-                <ul>
-                  <li v-for="(link, index) in shop">
-                    <a href="">{{ shop[index].link }}</a>
-                  </li>
-                </ul>
-              </div>
-              <div class="column">
-                <h3>DC</h3>
-                <ul>
-                  <li v-for="(link, index) in dc">
-                    <a href="">{{ dc[index].link }}</a>
-                  </li>
-                </ul>
-              </div>
-              <div class="column">
-                <h3>SITES</h3>
-                <ul>
-                  <li v-for="(link, index) in sites">
-                    <a href="">{{ sites[index].link }}</a>
-                  </li>
-                </ul>
-              </div>
+              <h3>SHOP</h3>
+              <ul>
+                <li v-for="(link, index) in shop">
+                  <a href="">{{ shop[index].link }}</a>
+                </li>
+              </ul>
+            </div>
+            <div class="column">
+              <h3>DC</h3>
+              <ul>
+                <li v-for="(link, index) in dc">
+                  <a href="">{{ dc[index].link }}</a>
+                </li>
+              </ul>
+            </div>
+            <div class="column">
+              <h3>SITES</h3>
+              <ul>
+                <li v-for="(link, index) in sites">
+                  <a href="">{{ sites[index].link }}</a>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
+      </div>
         <div class="bg_under_footer">
           <div class="container">
             <div class="under_footer_content">

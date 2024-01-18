@@ -22,10 +22,6 @@ export default {
 
 <template>
   <div>
-    <h1>
-        Mia App
-    </h1>
-
     <AppHeader />
     <AppMain />
     <AppFooter />
@@ -34,5 +30,8 @@ export default {
 
 <style lang="scss">
 @use "assets/scss/main" as *;
+@use "assets/scss/header" as *;
+@use "assets/scss/footer" as *;
+
 @import "assets/scss/partials/reset";
 </style>

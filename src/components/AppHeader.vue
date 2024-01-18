@@ -31,7 +31,7 @@ export default {
               link:'news',
             },
             {
-              link:'WaveShaperNode',
+              link:'shop',
             }           
           ]
         };
@@ -43,22 +43,27 @@ export default {
 </script>
 
 <template>
-  <div>
+  
     <header>
-      <div class="container">
-        <div class="logo_container">
-          <img src="../img/dc-logo.png" alt="logodc">
+      <div class="bg_container">
+        <div class="container">
+          <div class="nav_bar">
+            <div class="logo_container">
+              <img src="../img/dc-logo.png" alt="logodc">
+            </div>
+            <div>
+              <nav>
+                <ul>
+                  <li v-for="(link, index) in navbar">
+                    <a href=""> {{ navbar[index].link }}</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
         </div>
-        <nav>
-          <ul>
-            <li v-for="(link, index) in navbar">
-              <a href=""> {{ navbar[index].link }}</a>
-            </li>
-          </ul>
-        </nav>
       </div>
     </header>
-  </div>
 </template>
 
 <style lang="scss" scoped>

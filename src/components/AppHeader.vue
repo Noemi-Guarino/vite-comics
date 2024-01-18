@@ -49,7 +49,7 @@ export default {
         <div class="container">
           <div class="nav_bar">
             <div class="logo_container">
-              <img src="../img/dc-logo.png" alt="logodc">
+              <img src="../assets/img/dc-logo.png" alt="logodc">
             </div>
             <div>
               <nav>

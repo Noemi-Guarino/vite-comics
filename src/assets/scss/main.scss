@@ -38,13 +38,19 @@ nav>ul>li{
 .top_main{
     background-image: url("./src/assets/img/jumbotron.jpg");
     height: 350px;
+    position: relative;
+}
 
+.tag{
+    position: absolute;
+    bottom: -30px;
 }
 
 .under_main{
     display: flex;
     flex-wrap: wrap;
-    padding: 20px;
+    margin-top: 20px;
+    padding: 30px;
     text-align: center;
 }
 

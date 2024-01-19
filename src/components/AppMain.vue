@@ -115,7 +115,10 @@ export default {
     <main>
         <div class="bg_main">
             <div class="top_main">
-                <div>
+                <div class="container">
+                    <div class="button mainbutton tag">
+                        <h2>Current Series</h2>
+                    </div>
                 </div>
             </div>
             <div class="container">

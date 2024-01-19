@@ -1,8 +1,6 @@
 <script>
 // importazione componente appproducts
 import AppProducts from './AppProducts.vue';
-
-
 export default {
     data() {
         return {
@@ -107,7 +105,7 @@ export default {
       // dichiarazione del componente all'interno dell'oggetto
     components:{
     AppProducts
-  },
+},
     methods: {
     }
 }
@@ -116,15 +114,22 @@ export default {
 <template>
     <main>
         <div class="bg_main">
+            <div class="top_main">
+                <div></div>
+            </div>
             <div class="container">
-                <div class="top_main">
-                    <!-- utilizzo del componente -->
-                <AppProducts/>
+                <!-- utilizzo del componente -->
+                <div class="under_main">
+                <AppProducts
+                v-for="(comic, index) in products"
+                    :img="comic.thumb"
+                    :title="comic.series" 
+                    :price="comic.price"/>
                 </div>
             </div>
         </div>
-        <div class="under_main">
-            <div class="under_main_content" >
+        <div class="asset_icon_main">
+            <div class="asset_icon_main_content" >
                 <div class="assetsitems" v-for="(elem,index) in assets">
                     <div class="assets_container_img">
                         <img :src="elem.img" alt="">

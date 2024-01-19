@@ -115,16 +115,18 @@ export default {
     <main>
         <div class="bg_main">
             <div class="top_main">
-                <div></div>
+                <div>
+                </div>
             </div>
             <div class="container">
                 <!-- utilizzo del componente -->
                 <div class="under_main">
-                <AppProducts
-                v-for="(comic, index) in products"
-                    :img="comic.thumb"
-                    :title="comic.series" 
-                    :price="comic.price"/>
+                    <AppProducts
+                    v-for="(comic, index) in products"
+                        :img="comic.thumb"
+                        :title="comic.series" 
+                        :price="comic.price"/>
+                    <button class="button mainbutton">Load more</button>
                 </div>
             </div>
         </div>

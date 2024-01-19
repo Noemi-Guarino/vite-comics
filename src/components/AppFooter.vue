@@ -161,7 +161,7 @@ export default {
           <div class="container">
             <div class="under_footer_content">
               <div>
-                <button class="footerbutton">
+                <button class="button footerbutton">
                   SIGN-UP NOW
                 </button>
               </div>

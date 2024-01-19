@@ -24,9 +24,9 @@ export default {
             <img :src="img" :alt="title">
         </div>
         <div class="card_info">
-            <h2>
+            <h3>
                 {{ title }}
-            </h2>
+            </h3>
             <h6>
                 {{ price }}
             </h6>
@@ -35,4 +35,21 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+.card {
+    border: 1px solid red;
+    margin: 10px;
+    width: calc(100% / 6 - 20px);
+    margin-bottom: 10px;
+ }
+
+// .card_img{
+//     border: 2px solid blue;
+//     height: 60%;
+// }
+// .card_info{
+//     height: 40%;
+//     border: 2px solid orange;
+//     color:white;
+// }
+
 </style>

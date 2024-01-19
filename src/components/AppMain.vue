@@ -129,7 +129,7 @@ export default {
                         :img="comic.thumb"
                         :title="comic.series" 
                         :price="comic.price"/>
-                    <button class="button mainbutton">Load more</button>
+                        <button class="button mainbutton">Load  more</button>
                 </div>
             </div>
         </div>

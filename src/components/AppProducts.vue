@@ -36,20 +36,25 @@ export default {
 
 <style lang="scss" scoped>
 .card {
-    border: 1px solid red;
+    // border: 1px solid red;
     margin: 10px;
     width: calc(100% / 6 - 20px);
     margin-bottom: 10px;
  }
 
-// .card_img{
-//     border: 2px solid blue;
-//     height: 60%;
-// }
-// .card_info{
-//     height: 40%;
-//     border: 2px solid orange;
-//     color:white;
-// }
+    .card_img{
+    //  border: 2px solid blue;
+     height: 200px;
+     overflow: hidden;
+    }
 
+    h3{
+        color: white;
+        font-size: 1.5rem;
+    }
+
+    h6{
+        color: red;
+        font-size: 1.2rem;
+    }
 </style>

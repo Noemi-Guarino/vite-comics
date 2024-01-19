@@ -1,4 +1,8 @@
 <script>
+// importazione componente appproducts
+import AppProducts from './AppProducts.vue';
+
+
 export default {
     data() {
         return {
@@ -24,9 +28,12 @@ export default {
               title:'DS POWER VISA',
             },
             ]
-
         };
     },
+      // dichiarazione del componente all'interno dell'oggetto
+    components:{
+    AppProducts
+  },
     methods: {
 
     }
@@ -38,7 +45,8 @@ export default {
         <div class="bg_main">
             <div class="container">
                 <div class="top_main">
-                    <span>content main</span>
+                    <!-- utilizzo del componente -->
+                <AppProducts/>
                 </div>
             </div>
         </div>
